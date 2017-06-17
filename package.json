@@ -4,7 +4,9 @@
   "description": "The official bot for Saberfront: Alderaanian Assault 3",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^11.1.0"
+    "discord.js": "^11.1.0",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2"
   },
   "devDependencies": {},
   "scripts": {
