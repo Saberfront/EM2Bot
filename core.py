@@ -10,7 +10,6 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-@client.event
-async def on_message(message):
+
 
 client.run('MzI1NzI1Nzc4MDMxNDExMjAx.DCc2_Q.o3z3f-Msx8I_uO8YeN-b7AL2hG0')
