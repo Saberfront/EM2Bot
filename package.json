@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": npm start"
+    "test": "npm start"
   },
   "repository": {
     "type": "git",
