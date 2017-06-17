@@ -11,8 +11,8 @@ EM2Server = commands.Bot(command_prefix='em2:', description=description)
 @EM2Server.event
 async def on_ready():
     print('Logged in as')
-    print(client.user.name)
-    print(client.user.id)
+    print(EM2Server.user.name)
+    print(EM2Server.user.id)
     print('------')
 
     
@@ -22,4 +22,4 @@ async def squadFunctionInfo(squadFunc : str):
     await EM2Server.say(squadFunctionsHelp.getSquadFunction(squadFunc))
 
 
-client.run('MzI1NzI1Nzc4MDMxNDExMjAx.DCc2_Q.o3z3f-Msx8I_uO8YeN-b7AL2hG0')
+EM2Server.run('MzI1NzI1Nzc4MDMxNDExMjAx.DCc2_Q.o3z3f-Msx8I_uO8YeN-b7AL2hG0')
