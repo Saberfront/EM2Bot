@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const Express4 = require('express.js');
+const Express4 = require('express');
 const EM2Client = new Discord.Client();
 const EM2ClientWeb = express();
 app.set('view engine', 'pug')
