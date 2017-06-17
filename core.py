@@ -6,7 +6,7 @@ import squadFunctionsHelp
 description = '''The official EM2 Bot and the official Discord Bot for Saberfront: Alderaanian Assault 3
 The main set of comands that can be used here are for the new UMS Squad System.
 '''
-EM2Server = commands.Bot(command_prefix=':', description=description)
+EM2Server = commands.Bot(command_prefix='em2:', description=description)
 
 @EM2Server.event
 async def on_ready():
