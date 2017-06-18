@@ -19,7 +19,7 @@ async def on_ready():
 @EM2Server.command()
 async def squadFunctionInfo(squadFunc : str):
     """Helps you understand what a specified UMS Squad Function means."""
-    await EM2Server.say(squadFunc + ": " + squadFunctionsHelp.getSquadFunction(squadFunc))
+    await EM2Server.say(squadFunctionsHelp.getSquadFunction(squadFunc))
 
 
 EM2Server.run('MzI1NzI1Nzc4MDMxNDExMjAx.DCc2_Q.o3z3f-Msx8I_uO8YeN-b7AL2hG0')
