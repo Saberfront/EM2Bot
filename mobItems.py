@@ -5,6 +5,6 @@ def getBlasterString():
     blasterStr = """**AVAILABLE BLASTERS**: \n ```"""
     for x, blaster in enumerate(availableBlasters):
         blasterStr = blasterStr + str(x) + ". " + blaster + " \n"
-
+    blasterStr = blasterStr + "```"
     return blasterStr
 
