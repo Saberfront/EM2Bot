@@ -3,6 +3,7 @@ import asyncio
 from discord.ext import commands
 import squadFunctionsHelp
 import mobItems
+
 description = '''The official EM2 Bot and the official Discord Bot for Saberfront: Alderaanian Assault 3
 The main set of commands that can be used here are for the new UMS Squad System AND Extraction Mode 2.
 '''

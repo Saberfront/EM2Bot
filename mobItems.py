@@ -8,4 +8,4 @@ availableBlasters = {
 }
 
 def getBlasterString():
-    return """ **AVAILABLE BLASTERS**: \n ```1. A280 \n 2. A280C \n 3. DC15X \n 4. DT29 \n 5. E-11 \n ``` """
+    return """ **AVAILABLE BLASTERS**: \n ```1. A280 \n2. A280C \n3. DC15X \n4. DT29 \n5. E-11 \n ``` """
